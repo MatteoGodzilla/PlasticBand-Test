@@ -1,0 +1,34 @@
+{
+    "name": "BasicPlayer",
+    "maps": [
+        {
+            "name": "Map",
+            "id": "3bb4bbfc-3651-4cfe-8ce8-b3dc1c3014b5",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "88e96e76-4ecd-433f-acff-1e43f19d5faf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6796b9b2-7d92-4b59-925c-195ced8c93ac",
+                    "path": "<Turntable>/rightTableBlue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
